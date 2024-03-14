@@ -3,6 +3,7 @@
 @import "./utilidades/cores.css";
 
 @import "./global/header.css";
+@import "./global/footer.css";
 
 @import "./global/home/introducao.css";
 
@@ -17,3 +18,5 @@
 @import "./bicicletas/bicicletas-lista.css";
 
 @import "./global/home/tecnologia.css";
+
+@import "./termos/termos.css";

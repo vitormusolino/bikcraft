@@ -16,10 +16,10 @@
   text-transform: uppercase;
   color: var(--cor-p5);
   font: 600 1.125rem/1.35 "Poppins", sans-serif;
-  max-width: max-content ;
+  max-width: max-content;
 }
 
-.botao:hover{
+.botao:hover {
   background: linear-gradient(#ffb60d, #e59317);
 }
 
@@ -56,4 +56,28 @@
 
 .link:hover {
   color: var(--cor-0);
+}
+
+/* Títulos Internas */
+
+.titulo-bg {
+  background-color: var(--cor-11);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.titulo p {
+  margin-bottom: 4px;
+}
+
+@media (max-width: 800px) {
+  .titulo-bg {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .titulo p{
+    font-size: 1rem;
+    text-transform: lowercase;
+    font-weight: 400;
+  }
 }
