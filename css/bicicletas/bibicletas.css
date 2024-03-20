@@ -8,6 +8,7 @@
   gap: 40px;
   padding-top: 60px;
   padding-bottom: 60px;
+  background: url(../../img/dec/top-right.svg) no-repeat top 40px right 20px;
 }
 
 .bicicletas-imagem {
@@ -75,9 +76,8 @@
   margin-right: 8px;
 }
 
-
-@media (max-width: 800px){
-  .bicicletas{
+@media (max-width: 800px) {
+  .bicicletas {
     grid-template-columns: 1fr;
     gap: 20px;
     padding-top: 40px;
@@ -86,17 +86,16 @@
   .bicicletas-bg {
     background: var(--cor-11);
   }
-  
 }
 
-@media (max-width: 600px){
-  .bicicletas-conteudo{
+@media (max-width: 600px) {
+  .bicicletas-conteudo {
     grid-template-columns: 1fr;
   }
-  .bicicletas-conteudo a{
+  .bicicletas-conteudo a {
     place-self: start;
   }
-  .bicicletas-conteudo ul{
+  .bicicletas-conteudo ul {
     font-size: 1rem;
     grid-template-columns: 1fr 1fr;
     margin-bottom: 32px;
