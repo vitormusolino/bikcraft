@@ -2,13 +2,17 @@
   background: var(--cor-11);
 }
 
-.seguros{
+.seguros {
   padding-top: 60px;
   padding-bottom: 60px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 40px;
-  align-items:center;
+  align-items: center;
+}
+
+#seguros .seguros {
+  padding-top: 0px;
 }
 
 .seguros h2 {
@@ -21,6 +25,7 @@
   padding: 32px 32px 32px 60px;
   border-radius: 4px;
   background-color: var(--cor-12);
+  border-radius: 4px;
 }
 
 .seguros-item h3 {
@@ -57,7 +62,7 @@
   background-image: url("../../img/icones/lista.svg");
 }
 
-.seguros-item a{
+.seguros-item a {
   grid-column: 1 / -1;
   max-height: max-content;
 }
